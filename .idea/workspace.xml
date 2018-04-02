@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e51a2287-22f6-4e01-b56f-5b57d39048e2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e51a2287-22f6-4e01-b56f-5b57d39048e2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
@@ -204,6 +202,12 @@
               <item name="maven" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -369,12 +373,12 @@
       <updated>1522048148554</updated>
       <workItem from="1522048150099" duration="2944000" />
       <workItem from="1522656017371" duration="5248000" />
-      <workItem from="1522661317501" duration="4000" />
+      <workItem from="1522661317501" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8196000" />
+    <option name="totallyTimeSpent" value="8235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-19" width="1920" height="1057" extended-state="0" />
