@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: service
+logging:
+  config:
+    classpath: example/logback-spring.xml
+jwt:
+  header: Authorization
+  secret: mySecret
+  expiration: 604800
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+page:
+  begin: 1
+  size: 20
