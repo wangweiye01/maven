@@ -42,3 +42,6 @@ spring:
       max-idle: 8
       min-idle: 0
     timeout: 0
+page:
+  begin: 1
+  size: 20

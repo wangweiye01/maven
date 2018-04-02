@@ -12,6 +12,3 @@ jwt:
     authentication:
       path: auth
       refresh: refresh
-page:
-  begin: 1
-  size: 20
