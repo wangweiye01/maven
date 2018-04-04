@@ -34,6 +34,11 @@ public class PersonController {
         return JsonResult.success(persons, null);
     }
 
+    @ApiOperation(value = "用户详情", notes = "")
+    @ApiImplicitParams({
+            @ApiImplicitParam(paramType = "header", name = "Authorization", value = "token", required = true, dataType = "string"),
+            @ApiImplicitParam(name = "name", value = "用户姓名", dataType = "string", required = true, paramType = "path")
+    })
     @RequestMapping(path = "/persons/{name}", method = RequestMethod.GET)
     public static JSONObject getPerson(@PathVariable("name") String name) {
         return JsonResult.success(persons.stream()
