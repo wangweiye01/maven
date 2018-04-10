@@ -21,7 +21,7 @@ public class HelloController {
     @Autowired
     private HelloService helloService;
 
-    @ApiOperation(value = "测试swagger2", notes = "接口具体描述")
+    @ApiOperation(value = "测试swagger2", notes = "接口具体描述，记录defaultValue的使用")
     @ApiImplicitParams({
             @ApiImplicitParam(paramType = "header", name = "Authorization", value = "token", required = true, dataType = "string"),
             @ApiImplicitParam(name = "page", value = "第几页", dataType = "int", required = false, paramType = "query"),
