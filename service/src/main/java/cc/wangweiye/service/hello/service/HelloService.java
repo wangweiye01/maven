@@ -13,18 +13,10 @@ import java.util.List;
 
 @Service
 public class HelloService {
-    @Value("${page.begin}")
-    private Integer defaultPage;
-
-    @Value("${page.size}")
-    private Integer defaultSize;
-
     @Autowired
     private HelloDao helloDao;
 
     public PageInfo<Hello> test(Integer page, Integer size) {
-        page = page == null ? defaultPage : page;
-        size = size == null ? defaultSize : size;
         PageHelper.startPage(page, size);
 
         List<Hello> hellos = helloDao.findList(new Hello());

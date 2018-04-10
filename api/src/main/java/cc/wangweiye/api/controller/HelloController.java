@@ -29,7 +29,7 @@ public class HelloController {
     })
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public JSONObject index(@RequestParam(required = false) Integer page, @RequestParam(required = false) Integer size) {
+    public JSONObject index(@RequestParam(required = false, defaultValue = "1") Integer page, @RequestParam(required = false, defaultValue = "10") Integer size) {
         PageInfo<Hello> pageInfo = helloService.test(page, size);
         return JsonResult.success(pageInfo.getList(), pageInfo);
     }
